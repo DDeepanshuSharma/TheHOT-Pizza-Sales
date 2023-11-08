@@ -1,0 +1,928 @@
+pizza_id,order_id,quantity,order_date,order_time,unit_price,total_price,pizza_size,pizza_category,pizza_ingredients,pizza_name
+1,1,2,01-01-2015,13:53:00,16,32,M,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+2,2,3,02-01-2015,12:28:14,20.75,62.25,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+3,3,2,02-01-2015,15:14:43,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+4,4,2,02-01-2015,15:17:02,16,32,M,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+5,5,3,02-01-2015,18:12:01,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+6,6,4,03-01-2015,13:44:28,16.75,50.25,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+7,7,3,03-01-2015,20:12:14,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+8,8,1,03-01-2015,20:55:47,20.75,41.5,L,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+9,9,4,05-01-2015,14:22:19,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+10,9,2,05-01-2015,14:22:19,16.75,33.5,M,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+11,9,2,05-01-2015,14:22:19,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+12,10,3,05-01-2015,17:44:39,16.75,33.5,M,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+13,11,2,06-01-2015,13:27:11,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+14,12,4,06-01-2015,17:37:05,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+15,13,3,06-01-2015,19:12:38,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+16,14,2,07-01-2015,13:36:47,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+17,15,2,07-01-2015,14:02:18,12.5,37.5,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+18,16,2,07-01-2015,14:31:10,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+19,17,4,07-01-2015,17:33:49,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+20,18,3,08-01-2015,12:34:20,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+21,19,3,08-01-2015,17:37:03,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+22,20,1,09-01-2015,14:09:33,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+23,20,1,09-01-2015,14:09:33,16,32,M,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+24,21,1,09-01-2015,15:31:01,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+25,22,2,09-01-2015,15:58:10,16.5,33,M,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+26,23,3,10-01-2015,12:27:47,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+27,24,3,11-01-2015,12:18:31,12.75,25.5,S,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+28,25,3,11-01-2015,19:52:49,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+29,26,1,12-01-2015,18:24:47,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+30,27,1,13-01-2015,12:29:51,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+31,27,4,13-01-2015,12:29:51,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+32,28,3,13-01-2015,18:50:43,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+33,29,3,14-01-2015,12:37:48,20.75,41.5,L,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+34,30,2,14-01-2015,12:54:35,20.25,40.5,L,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+35,30,2,14-01-2015,12:54:35,12.75,25.5,S,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+36,31,2,14-01-2015,13:10:53,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+37,32,2,14-01-2015,14:15:32,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+38,33,3,14-01-2015,20:40:40,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+39,34,3,16-01-2015,19:14:03,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+40,35,2,16-01-2015,19:35:00,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+41,36,2,16-01-2015,20:06:41,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+42,37,3,17-01-2015,12:24:36,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+43,38,4,17-01-2015,17:28:05,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+44,39,3,17-01-2015,20:50:54,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+45,40,1,18-01-2015,14:07:36,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+46,41,1,18-01-2015,14:50:37,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+47,42,2,18-01-2015,17:21:38,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+48,43,3,19-01-2015,12:56:45,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+49,43,1,19-01-2015,12:56:45,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+50,43,4,19-01-2015,12:56:45,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+51,44,4,20-01-2015,11:36:48,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+52,45,2,20-01-2015,12:39:05,16,32,M,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+53,45,1,20-01-2015,12:39:05,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+54,46,2,20-01-2015,12:59:38,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+55,47,2,21-01-2015,13:13:52,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+56,48,3,21-01-2015,14:00:05,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+57,49,1,22-01-2015,12:59:26,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+58,50,3,22-01-2015,13:14:17,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+59,51,2,22-01-2015,13:24:14,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+60,52,3,23-01-2015,11:45:37,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+61,53,4,23-01-2015,12:57:07,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+62,54,3,23-01-2015,20:24:59,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+63,55,3,25-01-2015,13:35:53,12.5,25,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+64,56,3,27-01-2015,13:23:02,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+65,57,2,27-01-2015,13:38:50,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+66,58,1,28-01-2015,13:37:57,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+67,58,1,28-01-2015,13:37:57,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+68,59,1,29-01-2015,13:36:52,20.25,40.5,L,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+69,59,3,29-01-2015,13:36:52,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+70,60,3,29-01-2015,13:39:42,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+71,61,2,29-01-2015,18:44:29,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+72,62,4,31-01-2015,13:21:53,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+73,63,1,31-01-2015,16:07:02,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+74,64,2,01-02-2015,11:49:01,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+75,65,4,01-02-2015,16:14:27,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+76,66,3,01-02-2015,16:25:39,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+77,67,2,02-02-2015,13:01:49,12,24,S,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+78,67,1,02-02-2015,13:01:49,16,32,M,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+79,68,2,03-02-2015,12:14:27,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+80,68,4,03-02-2015,12:14:27,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+81,68,3,03-02-2015,12:14:27,20.25,40.5,L,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+82,69,1,03-02-2015,13:20:46,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+83,70,1,03-02-2015,20:42:43,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+84,71,1,03-02-2015,20:46:45,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+85,72,4,04-02-2015,13:35:51,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+86,73,2,04-02-2015,14:03:04,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+87,73,1,04-02-2015,14:03:04,14.5,29,M,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+88,74,2,05-02-2015,13:31:29,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+89,75,2,06-02-2015,12:22:30,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+90,76,2,07-02-2015,15:00:58,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+91,77,2,08-02-2015,13:06:36,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+92,78,2,08-02-2015,18:24:31,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+93,79,4,09-02-2015,17:12:03,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+94,80,3,09-02-2015,18:53:44,12,24,S,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+95,81,1,10-02-2015,14:06:28,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+96,82,4,10-02-2015,16:49:38,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+97,83,1,11-02-2015,11:48:07,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+98,84,4,11-02-2015,12:35:27,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+99,85,1,11-02-2015,20:11:26,14.5,29,M,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+100,86,4,12-02-2015,15:54:49,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+101,87,3,12-02-2015,17:42:00,16,32,M,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+102,87,4,12-02-2015,17:42:00,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+103,88,2,13-02-2015,12:33:36,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+104,89,3,13-02-2015,13:43:11,16.25,48.75,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+105,90,3,14-02-2015,13:13:51,16,32,M,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+106,91,4,14-02-2015,14:41:49,16.5,33,M,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+107,92,2,14-02-2015,22:52:37,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+108,93,3,16-02-2015,11:47:04,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+109,94,2,17-02-2015,14:02:20,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+110,95,2,18-02-2015,11:22:20,16,32,M,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+111,96,3,18-02-2015,12:06:59,12.75,25.5,S,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+112,97,2,18-02-2015,17:17:04,16.5,33,M,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+113,98,1,19-02-2015,13:13:54,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+114,99,2,20-02-2015,12:32:03,12.75,25.5,S,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+115,100,3,20-02-2015,12:58:29,12.5,25,S,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+116,101,2,20-02-2015,17:54:22,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+117,102,3,20-02-2015,18:42:15,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+118,103,4,20-02-2015,19:01:48,12.5,25,S,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+119,104,1,20-02-2015,20:06:45,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+120,105,3,21-02-2015,12:43:43,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+121,106,3,21-02-2015,15:11:34,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+122,107,1,21-02-2015,16:46:37,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+123,108,1,22-02-2015,12:39:19,16.25,48.75,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+124,108,4,22-02-2015,12:39:19,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+125,109,1,22-02-2015,15:55:09,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+126,110,1,23-02-2015,13:27:18,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+127,110,2,23-02-2015,13:27:18,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+128,111,4,23-02-2015,13:59:04,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+129,112,3,24-02-2015,11:56:22,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+130,113,4,24-02-2015,18:39:12,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+131,114,1,25-02-2015,10:54:03,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+132,115,2,25-02-2015,12:39:18,14.5,29,M,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+133,116,1,25-02-2015,20:46:02,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+134,117,1,26-02-2015,12:16:27,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+135,118,2,26-02-2015,13:04:26,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+136,119,3,26-02-2015,17:45:02,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+137,120,4,26-02-2015,18:49:00,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+138,121,4,27-02-2015,17:57:03,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+139,122,1,27-02-2015,18:43:12,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+140,123,3,28-02-2015,12:36:18,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+141,124,1,02-03-2015,16:19:32,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+142,125,3,03-03-2015,13:38:34,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+143,126,2,03-03-2015,14:00:33,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+144,127,2,03-03-2015,14:03:25,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+145,128,2,03-03-2015,21:41:41,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+146,129,3,04-03-2015,13:26:50,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+147,130,1,04-03-2015,13:48:40,14.5,29,M,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+148,131,2,04-03-2015,18:27:40,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+149,132,1,05-03-2015,13:21:27,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+150,133,2,05-03-2015,17:51:47,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+151,134,1,06-03-2015,12:29:52,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+152,135,2,06-03-2015,12:48:55,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+153,135,2,06-03-2015,12:48:55,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+154,136,1,06-03-2015,13:29:45,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+155,137,2,06-03-2015,18:42:52,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+156,138,1,06-03-2015,20:01:26,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+157,139,2,06-03-2015,20:29:18,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+158,140,3,07-03-2015,11:46:18,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+159,141,2,07-03-2015,12:23:20,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+160,142,1,07-03-2015,12:24:10,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+161,143,2,07-03-2015,19:40:59,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+162,144,1,07-03-2015,21:23:14,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+163,145,1,08-03-2015,12:29:28,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+164,145,3,08-03-2015,12:29:28,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+165,146,1,08-03-2015,17:55:21,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+166,147,2,09-03-2015,13:39:39,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+167,148,4,09-03-2015,16:38:56,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+168,149,1,10-03-2015,11:28:54,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+169,150,2,10-03-2015,12:27:06,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+170,151,1,11-03-2015,12:53:38,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+171,152,1,11-03-2015,16:37:46,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+172,153,2,12-03-2015,11:37:02,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+173,154,1,12-03-2015,12:38:05,16,32,M,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+174,154,1,12-03-2015,12:38:05,12,24,S,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+175,155,4,12-03-2015,13:15:42,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+176,156,1,13-03-2015,12:22:05,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+177,157,1,13-03-2015,17:53:29,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+178,158,4,13-03-2015,19:13:52,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+179,159,3,14-03-2015,15:50:39,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+180,160,2,15-03-2015,11:48:27,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+181,161,3,15-03-2015,13:41:43,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+182,162,1,15-03-2015,13:43:32,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+183,162,1,15-03-2015,13:43:32,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+184,162,3,15-03-2015,13:43:32,12,24,S,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+185,163,1,15-03-2015,15:48:11,12.75,25.5,S,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+186,164,2,15-03-2015,16:07:56,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+187,165,1,16-03-2015,13:14:57,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+188,166,4,17-03-2015,13:57:38,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+189,167,2,17-03-2015,14:14:26,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+190,168,3,17-03-2015,21:31:30,12.5,25,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+191,169,4,18-03-2015,12:08:52,16.5,33,M,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+192,170,1,18-03-2015,13:07:53,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+193,171,2,18-03-2015,17:24:44,12.75,25.5,S,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+194,172,2,18-03-2015,18:11:13,20.25,40.5,L,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+195,173,1,19-03-2015,12:26:04,12.75,25.5,S,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+196,174,1,20-03-2015,17:37:54,16.5,33,M,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+197,175,3,21-03-2015,13:08:31,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+198,176,4,21-03-2015,17:08:35,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+199,177,4,22-03-2015,13:56:27,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+200,178,3,23-03-2015,12:57:49,12.75,25.5,S,Veggie,"Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",The Italian Vegetables Pizza
+201,178,2,23-03-2015,12:57:49,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+202,179,4,23-03-2015,19:54:00,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+203,180,4,23-03-2015,22:39:18,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+204,181,3,24-03-2015,12:53:26,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+205,182,3,24-03-2015,16:25:58,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+206,183,2,28-03-2015,12:40:38,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+207,184,2,29-03-2015,12:32:07,20.75,41.5,L,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+208,184,2,29-03-2015,12:32:07,16,32,M,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+209,185,2,29-03-2015,17:02:33,12,24,S,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+210,186,2,30-03-2015,13:24:35,12,48,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+211,187,1,30-03-2015,13:53:43,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+212,188,3,31-03-2015,14:23:57,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+213,189,3,31-03-2015,14:51:37,20.25,40.5,L,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+214,190,3,01-04-2015,12:07:01,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+215,191,2,01-04-2015,17:56:07,12,24,S,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+216,192,3,02-04-2015,11:53:01,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+217,192,3,02-04-2015,11:53:01,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+218,193,2,02-04-2015,12:58:32,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+219,193,4,02-04-2015,12:58:32,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+220,193,4,02-04-2015,12:58:32,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+221,194,2,02-04-2015,17:19:53,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+222,195,2,03-04-2015,20:28:49,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+223,196,2,04-04-2015,14:04:05,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+224,197,4,04-04-2015,14:09:08,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+225,197,4,04-04-2015,14:09:08,12.75,25.5,S,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+226,197,4,04-04-2015,14:09:08,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+227,198,4,04-04-2015,14:22:39,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+228,199,1,04-04-2015,18:34:34,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+229,200,4,04-04-2015,18:48:29,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+230,201,3,04-04-2015,22:49:14,12.5,25,S,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+231,202,1,05-04-2015,13:15:51,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+232,203,2,06-04-2015,12:23:03,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+233,204,2,06-04-2015,12:28:28,12.75,25.5,S,Veggie,"Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",The Italian Vegetables Pizza
+234,204,4,06-04-2015,12:28:28,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+235,205,4,06-04-2015,13:09:04,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+236,206,1,07-04-2015,12:38:22,12.5,25,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+237,207,3,07-04-2015,14:37:43,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+238,208,4,08-04-2015,12:02:59,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+239,209,1,08-04-2015,13:51:43,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+240,209,3,08-04-2015,13:51:43,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+241,209,2,08-04-2015,13:51:43,12.5,25,S,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+242,210,3,08-04-2015,17:26:47,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+243,211,2,09-04-2015,15:15:22,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+244,212,2,11-04-2015,17:19:57,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+245,213,4,11-04-2015,20:20:40,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+246,214,3,11-04-2015,21:26:33,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+247,215,1,12-04-2015,12:15:07,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+248,216,3,12-04-2015,15:39:22,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+249,217,3,12-04-2015,18:43:51,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+250,218,1,12-04-2015,22:16:05,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+251,219,3,13-04-2015,11:46:55,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+252,220,3,14-04-2015,13:14:51,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+253,220,2,14-04-2015,13:14:51,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+254,221,1,14-04-2015,15:26:25,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+255,222,1,14-04-2015,16:43:50,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+256,223,2,14-04-2015,21:26:50,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+257,224,3,15-04-2015,13:58:25,16,32,M,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+258,225,2,15-04-2015,15:58:26,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+259,226,1,15-04-2015,19:37:26,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+260,227,2,16-04-2015,22:04:26,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+261,228,2,18-04-2015,17:32:18,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+262,229,3,18-04-2015,20:06:42,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+263,230,3,19-04-2015,12:49:21,16.5,33,M,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+264,231,1,19-04-2015,14:21:48,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+265,232,2,19-04-2015,16:32:26,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+266,233,1,20-04-2015,12:43:03,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+267,234,3,20-04-2015,13:58:18,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+268,235,2,20-04-2015,18:43:08,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+269,236,1,21-04-2015,14:25:55,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+270,236,3,21-04-2015,14:25:55,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+271,237,3,21-04-2015,16:54:55,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+272,238,2,21-04-2015,20:25:05,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+273,239,4,22-04-2015,11:55:56,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+274,240,1,22-04-2015,20:03:59,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+275,241,1,23-04-2015,11:53:48,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+276,242,3,23-04-2015,12:51:44,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+277,243,2,23-04-2015,12:57:08,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+278,243,3,23-04-2015,12:57:08,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+279,243,1,23-04-2015,12:57:08,12,24,S,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+280,244,3,23-04-2015,18:08:39,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+281,245,3,23-04-2015,19:04:17,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+282,246,3,24-04-2015,13:10:26,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+283,246,4,24-04-2015,13:10:26,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+284,247,3,24-04-2015,19:51:03,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+285,248,2,24-04-2015,22:25:13,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+286,249,1,25-04-2015,13:16:55,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+287,250,1,26-04-2015,12:46:53,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+288,251,1,28-04-2015,12:52:09,12.5,25,S,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+289,252,1,28-04-2015,13:57:52,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+290,253,4,28-04-2015,16:27:52,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+291,254,3,28-04-2015,16:29:22,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+292,255,3,28-04-2015,16:48:04,20.75,41.5,L,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+293,256,1,28-04-2015,17:37:47,16,32,M,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+294,257,2,29-04-2015,11:59:10,12.75,25.5,S,Veggie,"Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",The Italian Vegetables Pizza
+295,258,2,29-04-2015,15:42:51,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+296,259,1,29-04-2015,17:11:54,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+297,260,3,29-04-2015,17:43:30,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+298,261,3,01-05-2015,12:58:03,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+299,262,4,01-05-2015,19:10:03,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+300,263,2,02-05-2015,12:02:29,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+301,263,2,02-05-2015,12:02:29,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+302,263,1,02-05-2015,12:02:29,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+303,264,4,03-05-2015,13:51:06,12.75,25.5,S,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+304,265,1,04-05-2015,14:17:55,16,32,M,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+305,266,4,04-05-2015,18:44:26,12,36,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+306,267,4,05-05-2015,13:10:00,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+307,268,3,05-05-2015,19:47:31,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+308,269,1,06-05-2015,12:51:42,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+309,270,1,06-05-2015,17:53:38,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+310,271,3,07-05-2015,12:45:58,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+311,271,2,07-05-2015,12:45:58,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+312,272,4,07-05-2015,14:42:32,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+313,273,4,07-05-2015,16:36:36,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+314,274,2,07-05-2015,17:50:15,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+315,275,3,07-05-2015,18:36:26,12.75,25.5,S,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+316,276,1,08-05-2015,12:01:19,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+317,277,2,08-05-2015,12:32:04,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+318,278,4,08-05-2015,12:42:43,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+319,279,3,08-05-2015,15:06:25,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+320,280,1,09-05-2015,13:10:51,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+321,280,2,09-05-2015,13:10:51,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+322,281,3,09-05-2015,13:18:40,20.75,41.5,L,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+323,282,2,09-05-2015,15:36:47,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+324,283,3,10-05-2015,12:49:43,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+325,284,4,11-05-2015,11:27:22,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+326,285,4,11-05-2015,14:29:39,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+327,286,3,11-05-2015,19:38:14,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+328,287,3,12-05-2015,14:59:26,16,32,M,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+329,287,1,12-05-2015,14:59:26,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+330,288,2,14-05-2015,12:57:13,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+331,288,3,14-05-2015,12:57:13,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+332,289,2,14-05-2015,13:26:21,17.5,35,L,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+333,290,1,14-05-2015,16:49:55,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+334,291,1,14-05-2015,17:32:18,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+335,292,3,14-05-2015,18:01:10,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+336,293,4,14-05-2015,20:11:21,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+337,294,3,15-05-2015,13:17:25,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+338,295,2,15-05-2015,14:13:27,20.75,62.25,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+339,296,4,16-05-2015,12:53:29,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+340,297,2,17-05-2015,13:50:45,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+341,298,4,17-05-2015,14:49:55,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+342,298,2,17-05-2015,14:49:55,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+343,299,3,18-05-2015,14:22:31,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+344,300,1,18-05-2015,18:52:42,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+345,301,3,19-05-2015,11:57:39,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+346,302,3,19-05-2015,12:03:38,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+347,303,1,19-05-2015,12:42:46,12,48,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+348,304,4,20-05-2015,12:25:45,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+349,304,2,20-05-2015,12:25:45,12.5,25,S,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+350,305,3,20-05-2015,14:11:37,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+351,306,3,20-05-2015,20:34:17,20.25,40.5,L,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+352,307,4,21-05-2015,17:16:30,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+353,308,4,22-05-2015,13:35:10,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+354,308,1,22-05-2015,13:35:10,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+355,309,2,22-05-2015,18:59:43,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+356,310,1,22-05-2015,20:12:44,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+357,311,4,23-05-2015,13:25:32,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+358,311,2,23-05-2015,13:25:32,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+359,312,1,23-05-2015,16:28:16,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+360,313,2,23-05-2015,16:48:11,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+361,314,1,23-05-2015,20:47:25,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+362,315,3,23-05-2015,20:48:05,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+363,316,2,23-05-2015,21:01:47,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+364,317,2,24-05-2015,11:50:36,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+365,317,2,24-05-2015,11:50:36,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+366,318,3,24-05-2015,13:25:13,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+367,319,3,24-05-2015,17:47:30,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+368,320,2,25-05-2015,12:35:46,20.75,41.5,L,Supreme,"Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic",The Soppressata Pizza
+369,321,4,25-05-2015,14:27:29,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+370,322,4,25-05-2015,19:26:51,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+371,323,3,26-05-2015,14:17:48,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+372,324,3,27-05-2015,12:55:14,12,24,S,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+373,325,2,28-05-2015,13:56:53,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+374,326,2,28-05-2015,18:14:34,12.5,25,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+375,327,2,28-05-2015,18:33:32,12.5,25,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+376,328,2,29-05-2015,20:56:00,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+377,329,2,30-05-2015,11:54:03,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+378,330,1,30-05-2015,13:33:49,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+379,330,1,30-05-2015,13:33:49,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+380,330,2,30-05-2015,13:33:49,12.5,25,S,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+381,331,4,30-05-2015,14:20:59,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+382,332,3,30-05-2015,18:03:54,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+383,333,1,01-06-2015,12:18:44,12.5,37.5,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+384,334,2,01-06-2015,12:55:58,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+385,334,2,01-06-2015,12:55:58,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+386,335,1,02-06-2015,12:40:58,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+387,336,2,03-06-2015,16:59:46,20.25,40.5,L,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+388,337,3,04-06-2015,12:09:28,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+389,338,4,04-06-2015,12:27:59,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+390,339,2,04-06-2015,12:41:43,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+391,340,2,04-06-2015,16:12:31,20.5,41,L,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+392,341,2,05-06-2015,14:36:07,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+393,342,1,06-06-2015,12:40:05,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+394,343,3,06-06-2015,15:43:34,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+395,344,2,06-06-2015,18:55:35,20.75,41.5,L,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+396,345,1,08-06-2015,11:40:54,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+397,346,3,08-06-2015,13:26:34,20.75,41.5,L,Supreme,"Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic",The Soppressata Pizza
+398,347,3,08-06-2015,13:26:37,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+399,348,1,08-06-2015,15:48:26,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+400,349,1,08-06-2015,18:03:51,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+401,350,4,08-06-2015,18:30:53,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+402,351,1,08-06-2015,18:46:41,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+403,352,4,09-06-2015,11:55:15,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+404,353,4,09-06-2015,17:00:19,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+405,354,3,10-06-2015,12:13:01,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+406,355,1,10-06-2015,12:20:23,12,36,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+407,355,4,10-06-2015,12:20:23,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+408,356,3,10-06-2015,13:19:56,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+409,357,3,10-06-2015,17:32:37,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+410,358,1,10-06-2015,18:25:11,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+411,359,1,10-06-2015,20:16:51,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+412,360,4,11-06-2015,12:18:23,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+413,361,2,11-06-2015,12:52:36,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+414,361,3,11-06-2015,12:52:36,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+415,362,3,11-06-2015,14:31:52,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+416,363,1,11-06-2015,14:50:04,12.5,25,S,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+417,364,3,11-06-2015,14:53:12,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+418,365,1,12-06-2015,13:28:13,16,32,M,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+419,366,4,12-06-2015,18:08:14,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+420,367,2,13-06-2015,13:17:54,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+421,368,3,13-06-2015,17:01:55,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+422,369,3,13-06-2015,19:44:56,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+423,370,1,14-06-2015,13:59:00,12.5,25,S,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+424,371,2,14-06-2015,16:48:52,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+425,372,1,14-06-2015,21:47:27,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+426,373,1,15-06-2015,15:46:43,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+427,374,3,15-06-2015,18:51:55,16,32,M,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+428,375,4,16-06-2015,12:39:14,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+429,376,2,16-06-2015,13:03:51,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+430,377,2,16-06-2015,22:25:07,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+431,378,1,17-06-2015,11:53:46,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+432,379,2,17-06-2015,15:42:11,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+433,380,2,18-06-2015,11:24:50,12,24,S,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+434,381,4,18-06-2015,18:21:12,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+435,382,2,20-06-2015,12:18:46,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+436,383,3,20-06-2015,13:35:54,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+437,384,3,20-06-2015,14:58:52,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+438,385,1,20-06-2015,22:09:01,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+439,386,2,21-06-2015,14:22:05,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+440,387,4,22-06-2015,11:58:43,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+441,388,2,22-06-2015,13:15:45,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+442,389,3,22-06-2015,19:14:44,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+443,390,1,23-06-2015,18:46:08,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+444,391,3,24-06-2015,13:04:49,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+445,392,3,25-06-2015,12:10:03,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+446,393,4,25-06-2015,12:22:42,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+447,393,4,25-06-2015,12:22:42,20.25,40.5,L,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+448,394,2,25-06-2015,17:28:09,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+449,395,2,26-06-2015,11:47:49,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+450,396,1,26-06-2015,19:12:39,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+451,397,4,27-06-2015,11:49:55,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+452,398,1,27-06-2015,12:23:19,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+453,398,3,27-06-2015,12:23:19,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+454,399,1,27-06-2015,18:46:57,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+455,400,1,27-06-2015,19:51:14,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+456,401,4,27-06-2015,21:58:36,16,32,M,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+457,402,3,28-06-2015,15:10:57,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+458,403,1,28-06-2015,17:01:13,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+459,404,3,30-06-2015,13:31:27,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+460,404,3,30-06-2015,13:31:27,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+461,404,3,30-06-2015,13:31:27,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+462,404,1,30-06-2015,13:31:27,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+463,404,3,01-07-2015,13:33:35,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+464,404,4,01-07-2015,13:33:35,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+465,405,3,01-07-2015,18:03:41,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+466,406,1,02-07-2015,13:44:12,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+467,406,3,02-07-2015,13:44:12,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+468,407,4,02-07-2015,19:27:15,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+469,408,4,03-07-2015,12:45:27,20.75,41.5,L,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+470,409,3,03-07-2015,16:32:56,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+471,410,3,03-07-2015,18:32:49,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+472,411,4,03-07-2015,20:23:43,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+473,412,1,03-07-2015,20:47:25,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+474,413,1,03-07-2015,22:24:06,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+475,414,2,04-07-2015,15:31:05,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+476,415,4,05-07-2015,16:48:26,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+477,416,2,06-07-2015,13:09:22,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+478,417,4,06-07-2015,18:08:46,20.75,41.5,L,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+479,418,3,07-07-2015,12:02:28,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+480,419,3,07-07-2015,13:11:54,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+481,420,1,07-07-2015,13:15:15,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+482,421,2,07-07-2015,15:57:17,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+483,422,3,07-07-2015,16:41:56,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+484,423,2,07-07-2015,18:58:12,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+485,424,1,08-07-2015,12:03:13,20.75,41.5,L,Supreme,"Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic",The Soppressata Pizza
+486,425,3,08-07-2015,13:12:23,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+487,426,1,08-07-2015,14:08:21,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+488,427,1,09-07-2015,12:15:51,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+489,428,2,09-07-2015,19:27:00,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+490,429,1,10-07-2015,12:58:49,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+491,430,4,10-07-2015,15:39:20,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+492,431,2,10-07-2015,17:03:28,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+493,432,3,10-07-2015,22:20:47,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+494,433,2,11-07-2015,16:03:30,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+495,434,3,13-07-2015,13:37:50,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+496,434,1,13-07-2015,13:37:50,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+497,435,2,14-07-2015,12:04:06,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+498,436,1,14-07-2015,19:40:46,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+499,437,1,15-07-2015,13:27:50,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+500,438,4,15-07-2015,14:31:06,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+501,439,1,16-07-2015,12:39:01,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+502,440,4,16-07-2015,12:59:05,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+503,440,4,16-07-2015,12:59:05,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+504,440,2,16-07-2015,12:59:05,20.75,41.5,L,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+505,441,3,16-07-2015,22:06:25,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+506,442,4,17-07-2015,13:31:42,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+507,443,2,17-07-2015,14:08:59,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+508,444,3,18-07-2015,12:18:57,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+509,445,1,18-07-2015,15:40:14,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+510,446,2,19-07-2015,13:55:33,16.75,33.5,M,Veggie,"Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",The Italian Vegetables Pizza
+511,447,4,19-07-2015,15:02:02,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+512,448,1,19-07-2015,17:47:27,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+513,449,1,20-07-2015,11:50:01,16,32,M,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+514,449,2,20-07-2015,11:50:01,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+515,450,1,20-07-2015,14:20:14,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+516,451,3,20-07-2015,17:29:02,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+517,452,4,20-07-2015,19:29:55,16,32,M,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+518,453,3,21-07-2015,11:19:15,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+519,454,3,21-07-2015,17:10:51,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+520,455,1,22-07-2015,13:11:08,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+521,456,2,22-07-2015,13:16:45,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+522,457,2,22-07-2015,16:37:30,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+523,458,2,22-07-2015,17:54:07,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+524,459,2,23-07-2015,13:32:31,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+525,460,4,23-07-2015,14:02:10,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+526,461,2,23-07-2015,17:35:03,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+527,462,1,23-07-2015,18:21:44,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+528,463,1,24-07-2015,11:48:17,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+529,464,3,24-07-2015,12:32:09,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+530,465,4,24-07-2015,12:42:37,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+531,466,3,24-07-2015,12:43:56,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+532,466,4,24-07-2015,12:43:56,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+533,466,1,24-07-2015,14:25:08,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+534,466,1,24-07-2015,14:25:08,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+535,467,1,24-07-2015,18:40:19,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+536,468,3,25-07-2015,20:35:52,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+537,469,4,26-07-2015,13:28:46,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+538,469,4,26-07-2015,13:28:46,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+539,469,3,26-07-2015,13:40:47,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+540,469,1,26-07-2015,13:40:47,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+541,470,1,27-07-2015,13:04:05,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+542,471,4,27-07-2015,13:48:04,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+543,472,1,27-07-2015,20:01:58,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+544,473,2,28-07-2015,12:54:46,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+545,474,3,28-07-2015,14:03:46,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+546,475,1,29-07-2015,16:34:31,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+547,476,3,30-07-2015,13:14:07,16,48,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+548,477,4,30-07-2015,13:27:05,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+549,477,1,30-07-2015,13:27:05,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+550,477,4,30-07-2015,13:27:05,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+551,478,4,30-07-2015,14:19:14,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+552,479,4,31-07-2015,11:48:19,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+553,480,3,01-08-2015,14:30:06,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+554,480,4,01-08-2015,14:30:06,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+555,481,4,01-08-2015,19:58:11,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+556,482,2,01-08-2015,20:53:57,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+557,483,2,02-08-2015,12:47:25,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+558,483,2,02-08-2015,12:47:25,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+559,484,2,02-08-2015,13:59:39,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+560,484,4,02-08-2015,13:59:39,14.5,29,M,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+561,485,4,03-08-2015,13:13:44,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+562,486,3,03-08-2015,14:26:56,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+563,487,1,03-08-2015,19:42:25,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+564,488,4,04-08-2015,13:52:32,20.25,40.5,L,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+565,489,2,05-08-2015,12:54:22,12.75,25.5,S,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+566,490,1,05-08-2015,18:38:00,12.75,25.5,S,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+567,491,3,05-08-2015,19:57:33,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+568,492,2,07-08-2015,12:24:05,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+569,493,1,07-08-2015,12:50:43,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+570,493,4,07-08-2015,12:50:43,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+571,494,1,07-08-2015,12:53:47,12,36,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+572,495,3,07-08-2015,19:54:59,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+573,496,1,08-08-2015,12:34:12,12.75,25.5,S,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+574,496,2,08-08-2015,12:34:12,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+575,497,4,09-08-2015,19:07:28,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+576,498,1,09-08-2015,21:16:58,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+577,499,4,10-08-2015,12:52:07,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+578,500,4,11-08-2015,12:51:26,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+579,501,3,11-08-2015,18:44:27,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+580,502,4,11-08-2015,19:31:18,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+581,503,3,12-08-2015,12:16:31,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+582,504,3,13-08-2015,14:07:56,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+583,505,3,13-08-2015,15:33:35,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+584,506,3,14-08-2015,13:03:22,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+585,507,4,14-08-2015,13:53:29,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+586,508,1,14-08-2015,16:49:03,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+587,509,3,15-08-2015,20:24:20,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+588,510,4,16-08-2015,12:15:46,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+589,511,4,16-08-2015,19:32:36,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+590,512,3,17-08-2015,12:30:03,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+591,513,2,17-08-2015,13:48:00,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+592,513,2,17-08-2015,13:48:00,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+593,514,3,17-08-2015,16:58:07,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+594,515,1,17-08-2015,21:48:32,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+595,516,3,18-08-2015,12:21:27,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+596,517,3,19-08-2015,13:04:52,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+597,518,4,19-08-2015,14:45:30,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+598,518,3,19-08-2015,14:45:30,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+599,519,1,19-08-2015,16:06:26,20.25,40.5,L,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+600,520,2,19-08-2015,21:01:58,12,24,S,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+601,521,1,20-08-2015,17:35:38,12.5,25,S,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+602,522,4,21-08-2015,17:12:07,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+603,523,4,21-08-2015,18:06:55,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+604,524,2,22-08-2015,12:54:38,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+605,524,4,22-08-2015,12:54:38,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+606,525,1,22-08-2015,14:00:44,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+607,526,1,23-08-2015,12:52:55,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+608,527,3,23-08-2015,12:54:55,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+609,528,1,23-08-2015,14:45:56,12.75,25.5,S,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+610,529,2,23-08-2015,19:10:56,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+611,530,1,24-08-2015,16:44:07,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+612,531,1,25-08-2015,12:36:20,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+613,532,4,25-08-2015,13:00:20,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+614,533,4,25-08-2015,20:35:19,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+615,534,2,26-08-2015,11:39:11,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+616,535,3,26-08-2015,12:05:51,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+617,536,3,26-08-2015,12:11:33,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+618,537,1,26-08-2015,12:33:48,12.5,25,S,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+619,538,1,26-08-2015,14:38:53,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+620,539,4,26-08-2015,17:54:28,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+621,540,1,27-08-2015,12:48:15,20.25,40.5,L,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+622,540,4,27-08-2015,12:48:15,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+623,541,3,27-08-2015,15:37:35,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+624,542,1,29-08-2015,15:16:32,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+625,543,3,31-08-2015,13:11:52,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+626,544,4,01-09-2015,12:32:00,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+627,545,3,01-09-2015,12:45:11,16,32,M,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+628,546,4,01-09-2015,17:27:38,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+629,547,3,02-09-2015,20:03:29,16.75,33.5,M,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+630,548,3,03-09-2015,13:55:34,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+631,548,3,03-09-2015,13:55:34,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+632,548,3,03-09-2015,13:55:34,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+633,549,1,03-09-2015,16:35:54,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+634,550,1,03-09-2015,16:59:47,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+635,551,2,04-09-2015,13:33:04,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+636,552,4,05-09-2015,14:08:17,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+637,553,2,05-09-2015,15:08:03,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+638,554,2,06-09-2015,17:34:13,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+639,555,4,07-09-2015,14:56:16,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+640,556,2,07-09-2015,19:06:08,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+641,557,3,08-09-2015,11:46:28,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+642,558,3,08-09-2015,14:54:22,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+643,559,1,09-09-2015,13:11:07,16.75,33.5,M,Veggie,"Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",The Italian Vegetables Pizza
+644,560,4,09-09-2015,13:29:29,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+645,561,1,09-09-2015,22:01:36,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+646,562,1,10-09-2015,11:20:26,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+647,563,3,10-09-2015,11:50:16,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+648,564,1,11-09-2015,14:21:58,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+649,564,2,11-09-2015,14:21:58,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+650,565,4,12-09-2015,17:56:07,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+651,566,4,13-09-2015,13:09:38,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+652,567,2,13-09-2015,17:19:01,11,22,S,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+653,568,4,13-09-2015,19:04:43,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+654,569,3,14-09-2015,12:24:07,17.5,35,L,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+655,570,4,15-09-2015,16:20:29,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+656,571,4,15-09-2015,19:28:25,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+657,572,4,15-09-2015,22:10:10,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+658,573,1,16-09-2015,12:34:55,12,24,S,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+659,574,3,16-09-2015,17:33:24,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+660,575,1,17-09-2015,13:15:51,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+661,576,1,17-09-2015,16:06:54,17.5,35,L,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+662,577,2,17-09-2015,16:23:41,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+663,578,1,18-09-2015,11:58:27,20.5,41,L,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+664,578,1,18-09-2015,11:58:27,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+665,579,2,18-09-2015,13:44:50,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+666,579,4,18-09-2015,13:44:50,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+667,580,4,19-09-2015,14:16:35,20.75,83,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+668,581,3,19-09-2015,17:54:41,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+669,582,1,19-09-2015,19:26:39,12.5,25,S,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+670,583,3,20-09-2015,12:30:44,20.5,61.5,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+671,584,3,20-09-2015,16:09:37,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+672,585,3,21-09-2015,12:23:27,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+673,586,2,21-09-2015,12:27:49,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+674,586,3,21-09-2015,12:27:49,12.5,25,S,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+675,587,2,21-09-2015,16:40:29,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+676,588,4,21-09-2015,20:26:18,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+677,589,4,22-09-2015,13:58:37,12,24,S,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+678,589,3,22-09-2015,13:58:37,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+679,589,1,22-09-2015,13:58:37,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+680,590,3,22-09-2015,15:32:13,16.75,33.5,M,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+681,591,2,23-09-2015,11:18:30,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+682,592,2,23-09-2015,13:31:40,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+683,592,3,23-09-2015,13:31:40,12,36,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+684,593,4,26-09-2015,12:40:39,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+685,594,4,26-09-2015,17:57:55,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+686,595,1,27-09-2015,13:01:46,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+687,596,1,28-09-2015,15:52:55,12.5,25,S,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+688,597,1,28-09-2015,18:35:48,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+689,598,2,29-09-2015,12:38:49,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+690,599,3,29-09-2015,13:19:39,16.75,33.5,M,Veggie,"Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",The Italian Vegetables Pizza
+691,600,4,29-09-2015,21:45:37,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+692,601,1,30-09-2015,16:14:09,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+693,602,1,01-10-2015,12:27:17,14.5,29,M,Classic,"Pepperoni, Mushrooms, Green Peppers","The Pepperoni, Mushroom, and Peppers Pizza"
+694,603,3,01-10-2015,12:52:08,16.75,33.5,M,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+695,604,2,01-10-2015,17:30:14,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+696,605,4,01-10-2015,18:24:56,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+697,606,4,02-10-2015,13:25:59,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+698,606,4,02-10-2015,13:25:59,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+699,607,1,02-10-2015,16:28:12,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+700,608,3,02-10-2015,19:20:47,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+701,609,3,03-10-2015,12:09:45,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+702,610,2,03-10-2015,13:26:32,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+703,611,2,03-10-2015,18:37:46,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+704,612,2,03-10-2015,21:12:23,16.5,49.5,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+705,613,4,04-10-2015,14:03:41,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+706,613,4,04-10-2015,14:03:41,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+707,614,2,04-10-2015,18:18:18,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+708,615,2,06-10-2015,12:53:29,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+709,616,4,06-10-2015,13:09:03,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+710,617,2,06-10-2015,19:03:35,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+711,618,2,06-10-2015,19:16:25,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+712,619,2,07-10-2015,13:52:21,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+713,620,3,07-10-2015,14:18:34,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+714,621,1,07-10-2015,18:59:43,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+715,622,3,08-10-2015,12:19:53,20.75,62.25,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+716,623,2,08-10-2015,12:23:25,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+717,623,3,08-10-2015,12:23:25,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+718,624,3,09-10-2015,12:15:09,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+719,625,3,09-10-2015,12:31:42,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+720,626,1,09-10-2015,12:31:42,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+721,627,2,10-10-2015,13:46:02,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+722,628,1,11-10-2015,12:30:56,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+723,628,4,11-10-2015,12:30:56,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+724,628,1,11-10-2015,12:30:56,20.75,41.5,L,Supreme,"Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic",The Soppressata Pizza
+725,629,3,11-10-2015,19:27:25,12.75,25.5,S,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+726,630,4,14-10-2015,20:04:44,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+727,631,1,15-10-2015,11:55:45,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+728,632,3,15-10-2015,13:49:26,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+729,633,1,15-10-2015,19:46:33,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+730,634,1,15-10-2015,20:38:38,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+731,635,2,16-10-2015,11:49:41,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+732,636,3,16-10-2015,15:50:14,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+733,637,3,16-10-2015,16:01:58,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+734,638,3,16-10-2015,16:28:18,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+735,639,2,16-10-2015,18:49:01,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+736,640,2,17-10-2015,12:56:31,20.75,62.25,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+737,640,1,17-10-2015,12:56:31,12.75,25.5,S,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+738,640,3,17-10-2015,12:56:31,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+739,641,1,17-10-2015,13:07:44,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+740,642,4,17-10-2015,18:31:33,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+741,643,1,17-10-2015,19:22:39,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",The Chicken Pesto Pizza
+742,644,2,18-10-2015,13:05:09,16.75,50.25,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+743,644,1,18-10-2015,13:05:09,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+744,644,1,18-10-2015,13:05:09,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+745,644,1,18-10-2015,13:05:09,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+746,645,2,20-10-2015,12:49:03,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+747,646,1,20-10-2015,22:32:49,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+748,647,3,21-10-2015,13:33:13,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+749,647,3,21-10-2015,13:33:13,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+750,648,4,22-10-2015,13:14:44,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+751,649,1,22-10-2015,13:21:29,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+752,650,1,24-10-2015,13:35:35,12,24,S,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+753,650,4,24-10-2015,13:35:35,20.75,41.5,L,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+754,650,1,24-10-2015,13:35:35,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+755,651,4,24-10-2015,18:26:16,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+756,652,4,25-10-2015,13:47:19,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+757,652,2,25-10-2015,13:47:19,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+758,653,1,25-10-2015,17:05:32,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+759,654,3,25-10-2015,17:43:50,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+760,655,2,27-10-2015,14:02:27,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+761,656,4,27-10-2015,16:24:14,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+762,657,3,28-10-2015,15:55:15,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+763,658,2,29-10-2015,11:32:56,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+764,659,1,29-10-2015,13:18:46,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+765,660,3,29-10-2015,13:55:19,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+766,661,1,29-10-2015,17:00:24,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+767,662,4,30-10-2015,12:14:53,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+768,663,3,30-10-2015,13:42:12,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+769,664,2,31-10-2015,12:13:20,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+770,665,1,31-10-2015,12:18:34,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+771,666,1,31-10-2015,13:08:25,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+772,667,4,31-10-2015,19:48:00,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+773,668,2,31-10-2015,20:45:44,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+774,669,4,31-10-2015,22:12:58,16.75,33.5,M,Chicken,"Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",The Chicken Alfredo Pizza
+775,670,2,01-11-2015,13:09:02,16.25,32.5,M,Supreme,"?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+776,671,3,02-11-2015,16:51:39,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+777,672,4,03-11-2015,12:42:10,9.75,19.5,S,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+778,672,1,03-11-2015,12:42:10,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+779,673,1,06-11-2015,11:25:22,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+780,674,4,06-11-2015,13:23:28,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+781,675,2,06-11-2015,14:05:13,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+782,675,1,06-11-2015,14:05:13,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+783,676,3,06-11-2015,16:39:11,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+784,677,1,08-11-2015,13:13:56,18.5,55.5,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+785,678,1,09-11-2015,13:01:07,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+786,679,3,09-11-2015,13:11:01,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+787,679,4,09-11-2015,13:11:01,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+788,680,3,09-11-2015,13:13:10,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+789,681,4,09-11-2015,15:50:03,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+790,682,2,10-11-2015,13:10:40,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+791,683,1,10-11-2015,18:10:54,12,24,S,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+792,684,3,10-11-2015,18:34:43,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+793,685,2,10-11-2015,20:08:35,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+794,686,2,11-11-2015,16:40:22,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+795,687,4,11-11-2015,19:55:32,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+796,688,3,12-11-2015,13:24:59,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+797,688,3,12-11-2015,13:24:59,12.75,25.5,S,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+798,688,4,12-11-2015,13:24:59,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+799,689,1,12-11-2015,14:04:46,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+800,690,1,12-11-2015,14:52:46,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+801,691,2,12-11-2015,20:31:29,16,32,M,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+802,692,3,13-11-2015,19:27:08,12.5,25,S,Supreme,"Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",The Pepper Salami Pizza
+803,693,3,13-11-2015,20:21:58,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+804,694,1,14-11-2015,13:31:16,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+805,694,1,14-11-2015,13:31:16,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+806,695,1,16-11-2015,12:53:27,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+807,696,3,17-11-2015,12:14:18,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+808,696,4,17-11-2015,12:14:18,12.5,25,S,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+809,697,4,17-11-2015,14:48:33,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+810,698,4,17-11-2015,19:55:04,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+811,699,3,18-11-2015,12:25:12,16.75,50.25,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+812,699,4,18-11-2015,12:25:12,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+813,699,1,18-11-2015,12:25:12,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+814,699,1,18-11-2015,12:25:12,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+815,699,2,18-11-2015,12:25:12,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+816,699,1,18-11-2015,12:25:12,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+817,700,3,18-11-2015,16:44:03,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+818,701,2,18-11-2015,21:17:01,16.25,32.5,M,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+819,702,1,19-11-2015,14:07:23,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+820,703,3,20-11-2015,12:28:26,16.75,33.5,M,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+821,704,3,21-11-2015,14:40:50,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+822,705,2,21-11-2015,14:40:50,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+823,706,3,22-11-2015,20:18:14,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+824,707,1,22-11-2015,21:29:54,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+825,708,1,23-11-2015,11:57:15,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+826,709,4,23-11-2015,12:11:36,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+827,710,2,23-11-2015,12:41:00,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+828,710,3,23-11-2015,12:41:00,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+829,711,2,23-11-2015,16:20:09,12.75,25.5,S,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+830,712,2,23-11-2015,20:43:33,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+831,713,3,24-11-2015,13:41:35,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+832,714,2,24-11-2015,16:57:48,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+833,715,2,25-11-2015,11:52:33,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+834,716,3,25-11-2015,12:19:40,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+835,717,1,25-11-2015,19:59:42,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+836,718,1,26-11-2015,15:04:04,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+837,719,1,26-11-2015,15:19:21,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+838,720,3,26-11-2015,18:41:05,13.25,26.5,M,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+839,721,4,26-11-2015,19:22:07,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+840,722,2,26-11-2015,19:40:32,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+841,723,2,27-11-2015,11:29:51,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+842,724,4,27-11-2015,12:13:36,12,36,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+843,724,1,27-11-2015,12:13:36,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+844,724,4,27-11-2015,12:13:36,18.5,37,L,Veggie,"Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",The Five Cheese Pizza
+845,725,4,28-11-2015,12:35:13,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+846,726,3,28-11-2015,13:07:11,12.5,25,S,Supreme,"Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",The Spinach Supreme Pizza
+847,727,1,29-11-2015,11:58:10,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+848,728,1,29-11-2015,12:13:27,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+849,729,4,29-11-2015,19:14:03,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+850,730,2,29-11-2015,20:02:43,20.25,40.5,L,Veggie,"Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",The Mediterranean Pizza
+851,731,4,30-11-2015,17:44:06,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+852,732,2,30-11-2015,22:39:18,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+853,733,4,01-12-2015,12:20:51,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+854,734,1,01-12-2015,19:33:10,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+855,735,3,02-12-2015,13:47:53,20.75,41.5,L,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+856,736,4,03-12-2015,12:05:45,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+857,736,3,03-12-2015,12:05:45,16.75,33.5,M,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+858,737,2,03-12-2015,15:44:43,16,32,M,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+859,738,1,04-12-2015,13:26:26,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+860,739,1,04-12-2015,15:42:18,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+861,740,2,04-12-2015,17:20:39,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+862,741,3,05-12-2015,12:41:09,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+863,742,2,05-12-2015,13:27:51,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+864,743,1,06-12-2015,13:17:16,12.75,25.5,S,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+865,744,2,06-12-2015,14:17:25,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+866,745,4,06-12-2015,17:59:22,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+867,746,1,06-12-2015,19:45:13,16,32,M,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+868,747,4,07-12-2015,11:54:51,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+869,748,1,07-12-2015,12:53:24,16,32,M,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+870,749,4,07-12-2015,19:50:05,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+871,750,1,08-12-2015,12:28:25,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+872,751,1,09-12-2015,15:04:51,20.5,41,L,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+873,751,1,09-12-2015,15:04:51,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+874,751,2,09-12-2015,15:04:51,16.5,33,M,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
+875,752,2,09-12-2015,20:36:55,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+876,753,1,11-12-2015,15:23:36,20.75,41.5,L,Chicken,"Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",The Southwest Chicken Pizza
+877,754,1,11-12-2015,19:03:41,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+878,755,3,11-12-2015,19:46:41,20.75,41.5,L,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+879,756,1,12-12-2015,20:29:18,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+880,757,3,12-12-2015,21:07:05,12.25,24.5,S,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+881,758,3,13-12-2015,13:10:36,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+882,759,4,13-12-2015,13:55:31,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+883,760,4,13-12-2015,16:05:53,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+884,761,4,13-12-2015,18:58:46,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+885,762,1,15-12-2015,12:14:37,23.65,47.3,S,Supreme,"Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",The Brie Carre Pizza
+886,763,4,15-12-2015,13:21:22,12,24,S,Classic,"Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",The Napolitana Pizza
+887,763,4,15-12-2015,13:21:22,12.5,25,M,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+888,764,4,15-12-2015,17:34:31,25.5,51,XL,Classic,"Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",The Greek Pizza
+889,765,2,17-12-2015,14:10:56,14.75,29.5,M,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+890,766,3,17-12-2015,16:12:43,20.75,41.5,L,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+891,767,3,17-12-2015,17:24:32,12,24,S,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+892,768,2,18-12-2015,12:35:06,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+893,768,1,18-12-2015,12:35:06,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+894,769,2,19-12-2015,13:29:42,16.5,33,L,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+895,770,2,20-12-2015,13:45:27,16,32,M,Veggie,"Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",The Spinach and Feta Pizza
+896,771,3,20-12-2015,13:56:21,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+897,772,3,21-12-2015,11:57:49,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+898,772,3,21-12-2015,11:57:49,20.5,41,L,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+899,773,1,22-12-2015,12:46:28,20.25,40.5,L,Veggie,"Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",The Green Garden Pizza
+900,774,3,22-12-2015,16:39:25,16,32,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+901,775,2,22-12-2015,20:06:25,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+902,776,2,23-12-2015,12:35:26,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+903,777,2,23-12-2015,14:20:23,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+904,778,3,23-12-2015,17:05:56,20.25,40.5,L,Supreme,"Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",The Sicilian Pizza
+905,779,3,23-12-2015,17:52:04,20.25,40.5,L,Veggie,"Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",The Mexicana Pizza
+906,780,3,24-12-2015,13:26:40,20.75,41.5,L,Chicken,"Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",The Thai Chicken Pizza
+907,781,3,24-12-2015,17:53:26,16.25,32.5,M,Supreme,"duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",The Calabrese Pizza
+908,782,4,27-12-2015,12:48:05,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+909,783,3,27-12-2015,17:39:57,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+910,784,1,29-12-2015,13:20:17,16.75,33.5,M,Chicken,"Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",The California Chicken Pizza
+911,785,4,29-12-2015,13:43:53,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+912,786,2,29-12-2015,19:38:11,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+913,787,2,30-12-2015,11:57:57,16.75,33.5,M,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+914,787,1,30-12-2015,11:57:57,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+915,787,1,30-12-2015,11:57:57,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+916,787,1,30-12-2015,11:57:57,16.5,33,M,Supreme,"Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",The Italian Supreme Pizza
+917,788,3,30-12-2015,12:45:20,17.95,35.9,L,Veggie,"Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",The Four Cheese Pizza
+918,788,2,30-12-2015,12:45:20,16,32,M,Classic,"Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",The Italian Capocollo Pizza
+919,788,2,30-12-2015,12:45:20,12,24,S,Veggie,"Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",The Vegetables + Vegetables Pizza
+920,789,1,30-12-2015,15:45:32,16.5,33,M,Supreme,"Prosciutto di San Daniele, Arugula, Mozzarella Cheese",The Prosciutto and Arugula Pizza
+921,790,1,30-12-2015,17:41:53,10.5,21,S,Classic,"Sliced Ham, Pineapple, Mozzarella Cheese",The Hawaiian Pizza
+922,791,1,31-12-2015,12:01:03,15.25,30.5,L,Classic,"Mozzarella Cheese, Pepperoni",The Pepperoni Pizza
+923,792,3,31-12-2015,12:41:37,12.5,25,S,Veggie,"Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",The Spinach Pesto Pizza
+924,793,4,31-12-2015,13:04:18,16,48,M,Classic,"Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",The Classic Deluxe Pizza
+925,794,2,31-12-2015,15:35:37,12,24,S,Classic,"Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",The Big Meat Pizza
+926,795,4,31-12-2015,19:05:04,20.75,41.5,L,Chicken,"Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",The Barbecue Chicken Pizza
+927,796,4,31-12-2015,20:27:23,20.75,41.5,L,Supreme,"Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",The Spicy Italian Pizza
